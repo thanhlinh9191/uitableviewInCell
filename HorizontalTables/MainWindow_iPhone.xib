@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="ay6-8Y-sns" id="bOJ-HM-kah"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Na2-4i-xf1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.34901960780000002" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="rootViewController" destination="Sjv-HI-QAQ" id="5de-UM-iAX"/>
+            </connections>
+            <point key="canvasLocation" x="266" y="269"/>
+        </window>
+        <customObject id="ay6-8Y-sns" customClass="AppDelegate">
+            <connections>
+                <outlet property="navigationController" destination="Sjv-HI-QAQ" id="cMp-wp-1fL"/>
+                <outlet property="window" destination="Na2-4i-xf1" id="YI9-3j-hmW"/>
+            </connections>
+        </customObject>
+        <navigationController id="Sjv-HI-QAQ">
+            <navigationBar key="navigationBar" contentMode="scaleToFill" id="DqK-7P-e1f">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </navigationBar>
+            <point key="canvasLocation" x="267" y="-396"/>
+        </navigationController>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
